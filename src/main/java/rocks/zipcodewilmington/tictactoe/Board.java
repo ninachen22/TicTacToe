@@ -11,7 +11,7 @@ public class Board {
     }
 
     //if x wins
-    public Boolean isInFavorOfX() {
+    public Boolean isInFavorOfX() { //could figure out how to do with a loop? with ints i and j instead
         if (matrix[0][0] == 'X' && matrix[1][0] == 'X' && matrix[2][0] == 'X') { //1st horizontal
             return true;
         } else if (matrix[0][1] == 'X' && matrix[1][1] == 'X' && matrix[2][1] == 'X') { //2nd horizontal
